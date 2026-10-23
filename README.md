@@ -167,4 +167,10 @@ Open the PBIX file in Power BI Desktop. To refresh on another computer, update i
 
 ## Reference
 
-Moro, S., Cortez, P., & Rita, P. (2014). A data-driven approach to predict the success of bank telemarketing. *Decision Support Systems, 62*, 22–31. [DOI: 10.1016/j.dss.2014.03.001](https://doi.org/10.1016/j.dss.2014.03.001).
+## Data source
+
+This project uses the public Bank Marketing dataset from the UCI Machine Learning Repository.
+
+Source: https://archive.ics.uci.edu/dataset/222/bank+marketing
+
+Dataset used: bank-additional-full.csv — 41,188 records.
