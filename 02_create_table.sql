@@ -1,0 +1,33 @@
+USE bank_marketing;
+
+CREATE TABLE IF NOT EXISTS bank_marketing_clean (
+    record_id INT PRIMARY KEY,
+    age INT,
+    job VARCHAR(50),
+    marital VARCHAR(30),
+    education VARCHAR(50),
+    `default` VARCHAR(20),
+    housing VARCHAR(20),
+    loan VARCHAR(20),
+    contact VARCHAR(30),
+    month VARCHAR(10),
+    day_of_week VARCHAR(10),
+    duration INT,
+    campaign INT,
+    pdays INT,
+    previous INT,
+    poutcome VARCHAR(30),
+    emp_var_rate DECIMAL(6,2),
+    cons_price_idx DECIMAL(7,3),
+    cons_conf_idx DECIMAL(6,2),
+    euribor3m DECIMAL(6,3),
+    nr_employed DECIMAL(8,1),
+    y VARCHAR(3),
+    repeated_row_flag TINYINT,
+    unknown_field_count INT,
+    subscribed TINYINT,
+    previously_contacted TINYINT,
+    days_since_previous_contact INT NULL,
+    month_number TINYINT,
+    campaign_contact_band VARCHAR(10)
+) DEFAULT CHARACTER SET utf8mb4;
