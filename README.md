@@ -165,8 +165,6 @@ Open the PBIX file in Power BI Desktop. To refresh on another computer, update i
 - The Python export represents missing derived previous-contact days as blank values. SQL import converts these to NULL. SQL CSV exports may represent NULL differently; normalize this field to numeric values and actual nulls before using it in further Power BI calculations. It is not used in the displayed report measures.
 - The script is designed for this specific source file and checks its expected size; it is not a general-purpose ingestion system.
 
-## Reference
-
 ## Data source
 
 This project uses the public Bank Marketing dataset from the UCI Machine Learning Repository.
