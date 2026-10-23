@@ -3,6 +3,13 @@
 **Python · Pandas · MySQL · SQL · Power BI · DAX**  
 Personal data analytics project by Mariem Zoghlami
 
+## Dashboard preview
+
+![Bank Marketing Campaign Performance dashboard](PBI/bank-marketing-dashboard.png)
+
+[View the PDF report](PBI/Bank%20Marketing%20Campaign%20Analysis.pdf) · [Download the Power BI file](PBI/Bank%20Marketing%20Campaign%20Analysis.pbix)
+
+
 ## Project overview
 
 This project analyzes historical telephone marketing campaign records from a Portuguese bank to understand how term deposit subscription rates vary across contact methods, customer characteristics, and campaign activity.
